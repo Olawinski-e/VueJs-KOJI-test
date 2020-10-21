@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  .item {
+    width: 16rem;
+    a {
+      .text {
+        font-size: 16px;
+        color: dimgray;
+        text-align: center;
+        &:hover {
+          color: orange !important;
+        }
+      }
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+  }
+}

@@ -17,7 +17,7 @@ Vous devez répondre aux questions suivantes (chaque question attend une répons
 
 ## Quelle librairie allez vous utiliser pour gérer l'état de l'application ?
 
-- Je ne suis pas sûre de bien comprendre la question.
+- Je ne suis pas sûre de bien comprendre la question, Vuex?
 
 ## Quelles sont les pages nécessaires ?
 
@@ -55,7 +55,7 @@ post pour générer un nouveau documents type
 
 ## Comment allez-vous gérer l'exécution des requêtes d'api et le retour asynchrone de celles-ci ?
 
-- Mon composant va interroger le service qui aura un retour asynchrone géré par le subscribe. L'éxécution sera avec axios.
+- Mon composant va interroger le store qui aura un retour asynchrone géré par le subscribe. L'éxécution sera avec axios.
 
 ## Comment allez-vous gérer l'authentification ?
 
