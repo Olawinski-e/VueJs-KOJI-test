@@ -5,9 +5,9 @@
       </b-card-img>
       <b-card-body>
         <b-card-title>
-          <p class="text"><strong>Title :</strong> {{ item.data.title }}</p>
+          <p class="text"><strong>Title :</strong> {{ item.title }}</p>
           <hr />
-          <small>{{ item.data.body }}</small>
+          <small>{{ item.body }}</small>
           <p class="little-text"><strong>N° of the item</strong> {{ id }}</p>
         </b-card-title>
       </b-card-body>
@@ -36,7 +36,7 @@ export default {
       itemsService
         .getItem(this.id)
         .then(res => {
-          this.item = res;
+          this.item = res.data;
         })
         .catch(e => {
           console.log(e);
